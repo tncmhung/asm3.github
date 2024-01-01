@@ -1,0 +1,169 @@
+@media only screen and (max-width: 576px)  { /*Iphone 14 pro max*/
+  *{
+    margin-right: 1px;
+    margin-left: 1px;
+    overflow-x: hidden;
+  }
+  section .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Nav-bar*/
+  
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Giữa trang */
+  }
+  
+  #nav-bar .change1,
+  #nav-bar .change2 {
+    width: 100%; /* Chiều rộng đầy đủ của container */
+    text-align: center; /* Căn giữa nội dung */
+    margin-bottom: 10px; /* Khoảng cách giữa các phần tử */
+  }
+  #nav-bar a:nth-child(3) {
+    display: none;
+  }
+  .hovaten {
+    position: absolute;
+    top: 55px;
+    left: 113px;
+    color: white;
+    font-size: 25px;
+  }
+
+  .congviec {
+    position: absolute;
+    top: 93px;
+    left: 150px;
+    color: white;
+    font-size: 15px;
+  }
+
+  /*nav-bar*/
+
+    /*Mục tiêu nghề nghiệp*/
+    #target {
+      padding: 80px 50px 50px 28px;
+      background-color: rgb(236, 236, 236);
+      margin-right: 1px;
+    }
+    
+    #target p {
+      padding-top: 30px;
+      line-height: 24px;
+    }
+    
+    #personal-info {
+      line-height: 30px;
+      padding-top: 80px;
+      padding-left: 40px;
+      background-color: rgb(202, 202, 202);
+      margin-right: -1px;
+    }
+    .container1 {
+      display: block;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    /*Công việc*/
+    .container2 {
+      display: block;
+    }
+    .info-hobby1 {
+      display: grid;
+      grid-template-columns: 75% 25%;
+      grid-template-rows: 100px 128px;
+      height: 348px;
+      border: 1px solid rgb(210, 210, 210);
+      margin-bottom: 40px;
+    }
+  
+    .hobby {
+      display: flex;
+      gap: 16px;
+      grid-column: 1 / span 2;
+      align-self: center;
+      justify-self: center;
+    }
+  
+    .border-radius {
+      margin: 0 auto; /* Để nó ở giữa */
+      text-align: center; /* Căn giữa nội dung trong .border-radius */
+    }
+  
+    .title {
+      text-align: center; /* Căn giữa tiêu đề */
+    }
+
+    .exp-bar {
+      justify-self: normal;
+    }
+    /*Hover*/
+    .viewmore {
+      display: none;
+      cursor: pointer;
+  }
+  
+  /* Hiển thị nút "View More" khi hover vào phần kỹ năng */
+  .info-hobby:hover .viewmore {
+      display: block;
+  }
+  .info-hobby1:hover .viewmore {
+    display: block;
+}
+.info-experience:hover .viewmore {
+  display: block;
+}
+
+    /*Chứng chỉ - Giải thưởng*/
+      .container3 {
+        display: block;
+      }
+      .ccgt, .ccgt1, .ccgt2 {
+        display: block;
+        border-bottom: 1px solid rgb(247, 18, 18);
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .ccgtstyle {
+        font-size: 30px;
+        padding-top: 50px;
+        padding-left: 58px;
+      }
+
+      /*Dự án*/
+      .title {
+        padding-left: 18px;
+      }
+      .duan {
+        font-size: 40px;
+      }
+      .project {
+        display: block;
+      }
+
+      .project2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgb(247, 18, 18);
+      } 
+      #project2 {
+        border-bottom: none;
+      }
+      .project-img {
+        height: 284px;
+        width: 429px;
+      }
+    }
+
+    /*Footer*/
+    .contact-list {
+      display: contents;
+    }
+  
+    
+    
